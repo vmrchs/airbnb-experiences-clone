@@ -53,11 +53,22 @@ section {
 .card {
   width: 175px;
   font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  justify-content: center;
 }
 
 .card--image {
   min-width: 175px;
-  min-height: 235px;
+  height: 235px;
   width: 100%;
   margin: 0 auto;
   display: block;
