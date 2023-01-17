@@ -58,6 +58,11 @@ section {
   flex-direction: column;
 }
 
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .cards-list {
   display: flex;
   flex-wrap: nowrap;
@@ -84,4 +89,8 @@ section {
 
 .card--star {
   height: 14px;
+}
+
+.card--price {
+  margin-top: auto;
 }
